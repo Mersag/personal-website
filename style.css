@@ -1,3 +1,53 @@
-body {
+head {
+  display: none;
+}
+nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  color: #666666;
+}
+
+ul li {
+  padding: 10px;
+}
+
+h2 {
+  justify-content: flex-start;
+  font-style: italic;
   background-color: white;
+  font: #02030fcd;
+  padding: 8px 15px 6px;
+  border-radius: 0%;
+  border-radius: 15px;
+}
+
+
+h1 {
+  border: black 10px solid;
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+  color: #02030fcd;
+  line-height: 10;
+  font-family: sans;
+}
+
+img {display: :block;
+margin: auto;
+width: 50 %
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
